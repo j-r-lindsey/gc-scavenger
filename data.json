@@ -6,13 +6,13 @@
 		"prompt": "Find a can of food.",
 		"points": 1
 	},	{
-		"prompt": "Find a dessert.",
+		"prompt": "Find a some candy or dessert.",
 		"points": 1
 	},	{
 		"prompt": "Find your Children and Youth Guide Booklet.",
 		"points": 1
 	},	{
-		"prompt": "Find a living thing/creaure/person.",
+		"prompt": "Find a living thing/creature/person.",
 		"points": 1
 	},	{
 		"prompt": "Find a matching pair of socks.",
@@ -24,14 +24,28 @@
 		"prompt": "Find a scripture that is highlighted.",
 		"points": 1
 	},	{
-		"prompt": "Find a piece of sports equipment",
+		"prompt": "Find a piece of sports equipment.",
+		"points": 1
+	},	{
+		"prompt": "Find a piece of fruit.",
+		"points": 1
+	},	{
+		"prompt": "Find a musical instrument.",
 		"points": 1
 	},	{
 		"prompt": "PLAYER it is your turn to choose! What should we all find?",
 		"points": 1,
 		"dynamic": true
 	},	{
-		"prompt": "Spiritual time - PLAYER what is your favorite scripture?",
+		"prompt": "PLAYER it is your turn to choose! What should we all find?",
+		"points": 1,
+		"dynamic": true
+	},	{
+		"prompt": "Spiritual time - PLAYER, what is your favorite scripture (and why)?",
+		"points": 1,
+		"dynamic": true
+	},	{
+		"prompt": "Spiritual time - PLAYER, who is your favorite character in the scriptures (and why)?",
 		"points": 1,
 		"dynamic": true
 	}
