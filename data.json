@@ -9,6 +9,9 @@
 		"prompt": "Find a dessert.",
 		"points": 1
 	},	{
+		"prompt": "Find your Children and Youth Guide Booklet.",
+		"points": 1
+	},	{
 		"prompt": "Find a living thing/creaure/person.",
 		"points": 1
 	},	{
@@ -23,5 +26,13 @@
 	},	{
 		"prompt": "Find a piece of sports equipment",
 		"points": 1
+	},	{
+		"prompt": "PLAYER it is your turn to choose! What should we all find?",
+		"points": 1,
+		"dynamic": true
+	},	{
+		"prompt": "Spiritual time - PLAYER what is your favorite scripture?",
+		"points": 1,
+		"dynamic": true
 	}
 ]
