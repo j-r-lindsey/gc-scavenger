@@ -48,5 +48,14 @@
 		"prompt": "Spiritual time - PLAYER, who is your favorite character in the scriptures (and why)?",
 		"points": 1,
 		"dynamic": true
+	},	{
+		"prompt": "Find a very old book.",
+		"points": 1
+	},	{
+		"prompt": "Find some old tech (Flip phone, VHS tape, audio cassette, calculator, etc).",
+		"points": 1
+	},	{
+		"prompt": "Go give a family member a hug.",
+		"points": 1
 	}
 ]

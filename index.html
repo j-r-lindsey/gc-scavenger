@@ -23,6 +23,10 @@
 			font-size: 22;
 		}
 
+		#scores b {
+			font-size: 22;
+		}
+
 		#AdminPanel {
 			display: inline;
 			grid-column: 1 / 2;
@@ -52,7 +56,7 @@
 		<div id="AdminPanel">
 			<b>Add Player</b><br>
 			<input type="text" id="txtName" placeholder="Name"/>
-			<i id="btnAdd" class="fa fa-plus-circle fa-2x"></i>
+			<i id="btnAdd" class="fa fa-plus-circle fa-2x"></i><hr/>
 			<div id="scores"></div>			
 		</div>
 
@@ -84,7 +88,7 @@
 			board.html("");
 			for (let i=0; i<players.length; i++) {
 				let player = players[i];
-				board.append(`<p><b>${player.name}: ${player.score}</b>&nbsp;<i class="fa fa-chevron-circle-up fa-2x" id="btn_player_${i}"></i></p>`);
+				board.append(`<p><i class="fa fa-chevron-circle-up fa-2x" id="btn_player_${i}"></i>&nbsp;<b>${player.name}: ${player.score}</b></p>`);
 				$("#btn_player_" + i).click(() => {
 					players[i].score++;
 					updateScoreboard();
