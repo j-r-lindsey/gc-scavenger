@@ -30,7 +30,7 @@
 		#AdminPanel {
 			display: inline;
 			grid-column: 1 / 2;
-			border-right: 5px solid gray;
+			border-right: 3px solid gray;
 			padding: 15px;
 		}
 
@@ -39,7 +39,7 @@
 			padding: 15px;
 		}
 
-		i {
+		i, hr {
 			color: green;
 			text-align: "bottom";
 		}
@@ -54,9 +54,9 @@
 	<main>
 
 		<div id="AdminPanel">
-			<b>Add Player</b><br>
+			<b>Add Player</b><br/>
 			<input type="text" id="txtName" placeholder="Name"/>
-			<i id="btnAdd" class="fa fa-plus-circle fa-2x"></i><hr/>
+			<i id="btnAdd" class="fa fa-plus-circle fa-2x"></i><br/><hr/>
 			<div id="scores"></div>			
 		</div>
 
@@ -88,7 +88,7 @@
 			board.html("");
 			for (let i=0; i<players.length; i++) {
 				let player = players[i];
-				board.append(`<p><i class="fa fa-chevron-circle-up fa-2x" id="btn_player_${i}"></i>&nbsp;<b>${player.name}: ${player.score}</b></p>`);
+				board.append(`<p><i class="fa fa-chevron-circle-up fa-2x" id="btn_player_${i}"></i>&nbsp;<b>${player.name}: <font color="green">${player.score}<font></b></p>`);
 				$("#btn_player_" + i).click(() => {
 					players[i].score++;
 					updateScoreboard();
